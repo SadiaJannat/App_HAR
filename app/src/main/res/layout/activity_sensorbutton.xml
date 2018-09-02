@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SensorButton">
+
+    <Button
+        android:background="#7FB447"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/accelerometer"
+        android:textAlignment="center"
+        android:text="Accelerometer"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+     <Button
+         android:background="#7FB447"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/gyroscope"
+        android:textAlignment="center"
+        android:text="Gyroscope"
+         android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+     <Button
+         android:visibility="gone"
+         android:background="#7FB447"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/light"
+        android:textAlignment="center"
+        android:text="Light"
+         android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>

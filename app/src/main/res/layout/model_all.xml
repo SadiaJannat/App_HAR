@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:weightSum="18"
+    android:layout_height="20dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="7sp"
+        android:id="@+id/date"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="04-05-2018"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="7sp"
+        android:id="@+id/time"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="04-05-2018"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="7sp"
+        android:id="@+id/acc_x"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="04-05-2018"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="7sp"
+        android:id="@+id/acc_y"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="04-05-2018"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="7sp"
+        android:id="@+id/acc_z"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="04-05-2018"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="7sp"
+        android:id="@+id/gyro_x"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="04-05-2018"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="7sp"
+        android:id="@+id/gyro_y"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="04-05-2018"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="7sp"
+        android:id="@+id/gyro_z"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="04-05-2018"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:visibility="gone"
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="7sp"
+        android:id="@+id/barometer"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="04-05-2018"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textSize="7sp"
+        android:id="@+id/token"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    
+
+</LinearLayout>

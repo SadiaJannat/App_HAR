@@ -1,0 +1,4 @@
+#Sun Sep 02 22:14:35 BDT 2018
+base.0=E\:\\StudyStuffs\\Android\\FInal_thesis_poject v1 11 activities added\\FInal_thesis_poject\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

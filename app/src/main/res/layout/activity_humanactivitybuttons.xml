@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HumanActivityGetDataButtons">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:background="#7FB447"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/walking"
+                android:textAlignment="center"
+                android:text="walking (1)"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+             <Button
+                android:background="#7FB447"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/upstairs"
+                android:textAlignment="center"
+                android:text="upstairs (2)"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+             <Button
+                android:background="#7FB447"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/downstairs"
+                android:textAlignment="center"
+                android:text="downstairs (3)"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+             <Button
+                android:background="#7FB447"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/sitting"
+                android:textAlignment="center"
+                android:text="sitting (4)"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+             <Button
+                android:background="#7FB447"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/standing"
+                android:textAlignment="center"
+                android:text="standing (5)"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+             <Button
+                android:background="#7FB447"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/lying"
+                android:textAlignment="center"
+                android:text="lying (6)"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:background="#7FB447"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/sittingInToilet"
+                android:textAlignment="center"
+                android:text="sitting in toilet(7)"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+             <Button
+                android:background="#7FB447"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/jogging"
+                android:textAlignment="center"
+                android:text="jogging (8)"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:background="#7FB447"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/writting"
+                android:textAlignment="center"
+                android:text="writting(9)"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+             <Button
+                android:background="#7FB447"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/typing"
+                android:textAlignment="center"
+                android:text="typing (10)"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
